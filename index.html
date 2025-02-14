@@ -33,8 +33,28 @@
         border-top: 4px solid black;
         margin: 30px 0px;
       }
-      .button{
-        
+      .button {
+        width: 500px;
+        height: 55px;
+        margin: 40px auto;
+        background-color: rgba(38, 105, 228, 90%);
+        border-radius: 30px;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 10px;
+
+      }
+      .button > span {
+        text-transform: uppercase;
+        font-size: 25px;
+        color: white;
+        font-weight: 300;
+      }
+      #terms-conditions {
+        font-size: 20px;
+        font-weight: 200;
+        color: rgba(128, 128, 128, 80%);
+        letter-spacing: 2px;
       }
     </style>
   </head>
@@ -47,7 +67,11 @@
           Have a bot answering questions from customers on your website within
           10 minutes of signing up for ChatBot.
         </p>
-        <div class="button"></div>
+        <div class="button"><span>try now</span></div>
+        <p id="terms-conditions">
+          By clicking try now you create an account and agree to our Terms and
+          Conditions and Privacy Policy.
+        </p>
       </section>
     </main>
   </body>
