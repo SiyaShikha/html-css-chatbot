@@ -1,60 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <title>Chatbot</title>
     <style>
       * {
         margin: 0px;
         padding: 0px;
-        font-family: system-ui;
+        font-family: sans-serif;
+        box-sizing: border-box;
+        font-weight: 100;
+        margin-bottom: 6%;
       }
       #chatbot {
-        width: 800px;
-        height: 700px;
+        width: 44%;
         border: 1px solid rgba(0, 0, 0, 30%);
-        margin: 60px auto;
-        padding: 80px;
-        box-sizing: border-box;
+        margin: 8% auto;
+        padding: 4%;
       }
       #heading {
-        font-size: 65px;
-        font-weight: 300;
+        font-size: 64px;
+        line-height: 66px;
         color: rgba(0, 0, 0, 60%);
       }
       .content {
-        font-size: 30px;
-        font-weight: 200;
-        color: grey;
-        line-height: 40px;
+        font-size: 26px;
+        line-height: 38px;
         letter-spacing: 1.5px;
+        color: grey;
       }
       #separator {
-        width: 70px;
-        border-top: 4px solid rgba(0, 0, 0, 80%);
-        margin: 30px 0px;
+        width: 12%;
+        border-top: 4px solid black;
       }
       .button {
-        width: 600px;
-        height: 55px;
-        margin: 40px auto;
-        background-color: rgba(38, 105, 228, 90%);
-        border-radius: 30px;
-        box-sizing: border-box;
-        text-align: center;
-        padding-top: 10px;
-      }
-      .button > a {
+        display: block;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 25px;
+        font-size: 30px;
+        background-color: #4184e1;
         color: white;
-        font-weight: 300;
+        border-radius: 30px;
+        padding: 2%;
+        text-align: center;
       }
       #terms-conditions {
         font-size: 20px;
-        font-weight: 200;
-        color: rgba(128, 128, 128, 80%);
-        letter-spacing: 2px;
+        color: rgba(128, 128, 128, 68%);
       }
     </style>
   </head>
@@ -63,11 +54,14 @@
       <section id="chatbot">
         <h1 id="heading">Build your first chatbot in 10 minutes!</h1>
         <div id="separator"></div>
+
         <p class="content">
           Have a bot answering questions from customers on your website within
           10 minutes of signing up for ChatBot.
         </p>
-        <div class="button"><a href="#">try now &rarr;</a></div>
+
+        <a class="button" href="#">try now &rarr;</a>
+
         <p id="terms-conditions">
           By clicking try now you create an account and agree to our Terms and
           Conditions and Privacy Policy.
